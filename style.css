@@ -1,4 +1,28 @@
+:root {
+    --bg: #11161C;
+    --text: #EDEAE4;
+    --muted: #A3ABB4;
+    --gold: #D4A24C;
+    --card: #161C24;
+    --line: #222B37;
+}
+
 body {
-    background: #11161C;
-    color: #EDEAE4;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+a {
+    color: var(--gold);
+    text-decoration: none;
+}
+
+.handle {
+    color: var(--gold);
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.tagline {
+    color: var(--muted);
 }
