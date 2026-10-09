@@ -52,10 +52,16 @@ section {
     color: var(--bg);
     border-radius: 8px;
     font-weight: 600;
+    transition: transform 0.2s;
 }
 
 .btn-outline {
     background: transparent;
     color: var(--gold);
     border: 1px solid var(--gold);
+}
+
+.btn:hover,
+.btn:focus-visible {
+    transform: translateY(-2px);
 }
