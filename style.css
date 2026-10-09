@@ -176,6 +176,10 @@ footer {
     margin: 40px 0 80px;
 }
 
+#contact h2 {
+    margin-bottom: 12px;
+}
+
 @media (max-width: 640px) {
     /* هنا تشتغل القاعدة على الشاشات الصغيرة */
     #hero {
@@ -187,5 +191,8 @@ footer {
     }
     .btn {
         margin-bottom: 12px;
+    }
+    #contact {
+        padding: 40px 20px;
     }
 }
