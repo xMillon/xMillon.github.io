@@ -103,3 +103,10 @@ header {
     margin: 0 auto;
     padding: 24px;
 }
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px;
+}
