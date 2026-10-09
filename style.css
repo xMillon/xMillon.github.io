@@ -116,3 +116,32 @@ h2 {
     font-weight: 700;
     margin: 0 0 32px;
 }
+
+.tags {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+    flex-wrap: wrap;
+}
+
+.tags li {
+    font-size: 13px;
+    font-family: "IBM Plex Mono", monospace;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    padding: 4px 10px;
+    border-radius: 999px;
+}
+
+.card-link {
+    font-weight: 600;
+    margin-inline-end: 20px;
+    transition: color 0.2s;
+}
+
+.card-link:hover,
+.card-link:focus-visible {
+    color: var(--text);
+}
