@@ -175,3 +175,17 @@ footer {
     text-align: center;
     margin: 40px 0 80px;
 }
+
+@media (max-width: 640px) {
+    /* هنا تشتغل القاعدة على الشاشات الصغيرة */
+    #hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .btn {
+        margin-bottom: 12px;
+    }
+}
