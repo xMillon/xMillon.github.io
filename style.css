@@ -65,3 +65,10 @@ section {
 .btn:focus-visible {
     transform: translateY(-2px);
 }
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
