@@ -166,3 +166,12 @@ footer {
     color: var(--muted);
     font-size: 14px;
 }
+
+#contact {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 56px 40px;
+    text-align: center;
+    margin: 40px 0 80px;
+}
