@@ -196,3 +196,7 @@ footer {
         padding: 40px 20px;
     }
 }
+
+.card + .card {
+    margin-top: 20px;
+}
